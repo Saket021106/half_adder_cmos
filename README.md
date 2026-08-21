@@ -20,9 +20,8 @@ A half adder is a fundamental combinational digital circuit that performs the ad
 
 ### Truth Table
 
-| Inputs | Outputs |
+| Input A | Input B | Sum (S) | Carry (C) |
 | :---: | :---: | :---: | :---: |
-| **A** | **B** | **Sum (S)** | **Carry (C)** |
 | 0 | 0 | 0 | 0 |
 | 0 | 1 | 1 | 0 |
 | 1 | 0 | 1 | 0 |
@@ -67,7 +66,7 @@ The sum output requires an exclusive-OR (XOR) operation:
 ## Simulation & Verification
 
 The circuit design is verified through SPICE-based transient simulations. Key parameters analyzed include:
-- **Propagation Delay ($t_{p}$)":** Measured from input transition points to $50\%$ output voltage levels.
+- **Propagation Delay ($t_{p}$):** Measured from input transition points to $50\%$ output voltage levels.
 - **Dynamic Power Dissipation:** Evaluated across different switching frequencies.
 - **Static Power Dissipation:** Verified to ensure minimal leakage current during steady states.
 
